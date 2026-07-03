@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import MaterialIcon from '../common/MaterialIcon.vue'
 </script>
 
 <template>

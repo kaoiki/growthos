@@ -3,7 +3,7 @@ withDefaults(defineProps<{
   name: string
   fill?: boolean
   wght?: number
-  size?: number
+  size?: number | string
 }>(), {
   fill: false,
   wght: 400,

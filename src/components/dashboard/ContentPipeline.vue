@@ -1,34 +1,5 @@
 <script setup lang="ts">
 import MaterialIcon from '../common/MaterialIcon.vue'
-
-const pipelines = [
-  {
-    title: '2024 Creator Economy Forecast Report',
-    status: 'Drafting',
-    statusStyle: 'primary',
-    tags: ['Article', 'Long-form'],
-    progress: 65,
-    hasAI: true,
-  },
-  {
-    title: 'How to Save 20h/Week via Automation',
-    status: 'Ready',
-    statusStyle: 'secondary',
-    tags: ['Thread', 'Twitter'],
-    progress: 100,
-    hasAI: false,
-    canPublish: true,
-  },
-  {
-    title: 'Personal Brand Visual Upgrade Guide',
-    status: 'Backlog',
-    statusStyle: 'dim',
-    tags: ['Script', 'Video'],
-    progress: 0,
-    hasAI: false,
-    dimmed: true,
-  },
-]
 </script>
 
 <template>

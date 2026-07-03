@@ -10,7 +10,6 @@ export interface UserInfo {
 }
 
 /* ── 持久化 key ── */
-const TOKEN_KEY = 'growthos_token'
 const USER_KEY = 'growthos_user'
 
 /* ── 响应式状态 ── */

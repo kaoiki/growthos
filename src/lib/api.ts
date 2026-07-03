@@ -84,10 +84,12 @@ export async function post<T = unknown>(url: string, body?: unknown, isPublic = 
 }
 
 export class ApiError extends Error {
-  constructor(
-    public status: number,
-    public body: string,
-  ) {
+  status: number
+  body: string
+
+  constructor(status: number, body: string) {
     super(`API Error: ${status}`)
+    this.status = status
+    this.body = body
   }
 }
